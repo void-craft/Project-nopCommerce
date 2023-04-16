@@ -800,3 +800,123 @@
 2023-04-16 16:13:08,065 - root - INFO - ******* Starting Customer Search By Name **********
 2023-04-16 16:13:09,767 - root - INFO - ************* Searching Customer by Name **********
 2023-04-16 16:13:10,356 - root - INFO - ***************  TestCase Test004CustomerSearchByName Is Complete *********** 
+2023-04-16 21:06:10,434 - root - INFO - ************* Test003CustomerAddition **********
+2023-04-16 21:06:10,434 - root - INFO - ************* Test003CustomerAddition **********
+2023-04-16 21:06:10,434 - root - INFO - ************* Test003CustomerAddition **********
+2023-04-16 21:06:10,434 - root - INFO - ************* Test003CustomerAddition **********
+2023-04-16 21:06:10,434 - root - INFO - ************* Test003CustomerAddition **********
+2023-04-16 21:06:14,742 - root - INFO - ************* Login Successful **********
+2023-04-16 21:06:14,742 - root - INFO - ************* Login Successful **********
+2023-04-16 21:06:14,742 - root - INFO - ************* Login Successful **********
+2023-04-16 21:06:14,742 - root - INFO - ************* Login Successful **********
+2023-04-16 21:06:14,742 - root - INFO - ************* Login Successful **********
+2023-04-16 21:06:14,742 - root - INFO - ******* Starting Customer Addition Test **********
+2023-04-16 21:06:14,742 - root - INFO - ******* Starting Customer Addition Test **********
+2023-04-16 21:06:14,742 - root - INFO - ******* Starting Customer Addition Test **********
+2023-04-16 21:06:14,742 - root - INFO - ******* Starting Customer Addition Test **********
+2023-04-16 21:06:14,742 - root - INFO - ******* Starting Customer Addition Test **********
+2023-04-16 21:06:17,345 - root - INFO - ************* Providing Customer Info **********
+2023-04-16 21:06:17,345 - root - INFO - ************* Providing Customer Info **********
+2023-04-16 21:06:17,345 - root - INFO - ************* Providing Customer Info **********
+2023-04-16 21:06:17,345 - root - INFO - ************* Providing Customer Info **********
+2023-04-16 21:06:17,345 - root - INFO - ************* Providing Customer Info **********
+2023-04-16 21:06:19,718 - root - INFO - ************* Saving Customer Info **********
+2023-04-16 21:06:19,718 - root - INFO - ************* Saving Customer Info **********
+2023-04-16 21:06:19,718 - root - INFO - ************* Saving Customer Info **********
+2023-04-16 21:06:19,718 - root - INFO - ************* Saving Customer Info **********
+2023-04-16 21:06:19,718 - root - INFO - ************* Saving Customer Info **********
+2023-04-16 21:06:19,721 - root - INFO - ********* Customer Addition Validation Started *****************
+2023-04-16 21:06:19,721 - root - INFO - ********* Customer Addition Validation Started *****************
+2023-04-16 21:06:19,721 - root - INFO - ********* Customer Addition Validation Started *****************
+2023-04-16 21:06:19,721 - root - INFO - ********* Customer Addition Validation Started *****************
+2023-04-16 21:06:19,721 - root - INFO - ********* Customer Addition Validation Started *****************
+2023-04-16 21:06:19,898 - root - INFO - ********* Customer Addition Test Passed *********
+2023-04-16 21:06:19,898 - root - INFO - ********* Customer Addition Test Passed *********
+2023-04-16 21:06:19,898 - root - INFO - ********* Customer Addition Test Passed *********
+2023-04-16 21:06:19,898 - root - INFO - ********* Customer Addition Test Passed *********
+2023-04-16 21:06:19,898 - root - INFO - ********* Customer Addition Test Passed *********
+2023-04-16 21:06:20,052 - root - INFO - ******* Ending Customer Addition Test **********
+2023-04-16 21:06:20,052 - root - INFO - ******* Ending Customer Addition Test **********
+2023-04-16 21:06:20,052 - root - INFO - ******* Ending Customer Addition Test **********
+2023-04-16 21:06:20,052 - root - INFO - ******* Ending Customer Addition Test **********
+2023-04-16 21:06:20,052 - root - INFO - ******* Ending Customer Addition Test **********
+2023-04-16 21:06:23,215 - root - INFO - ************* Test004CustomerSearchByEmail **********
+2023-04-16 21:06:23,215 - root - INFO - ************* Test004CustomerSearchByEmail **********
+2023-04-16 21:06:23,215 - root - INFO - ************* Test004CustomerSearchByEmail **********
+2023-04-16 21:06:23,215 - root - INFO - ************* Test004CustomerSearchByEmail **********
+2023-04-16 21:06:23,215 - root - INFO - ************* Test004CustomerSearchByEmail **********
+2023-04-16 21:06:27,364 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:27,364 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:27,364 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:27,364 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:27,364 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:27,364 - root - INFO - ******* Starting Customer Search By Email **********
+2023-04-16 21:06:27,364 - root - INFO - ******* Starting Customer Search By Email **********
+2023-04-16 21:06:27,364 - root - INFO - ******* Starting Customer Search By Email **********
+2023-04-16 21:06:27,364 - root - INFO - ******* Starting Customer Search By Email **********
+2023-04-16 21:06:27,364 - root - INFO - ******* Starting Customer Search By Email **********
+2023-04-16 21:06:29,005 - root - INFO - ************* Searching Customer by Email **********
+2023-04-16 21:06:29,005 - root - INFO - ************* Searching Customer by Email **********
+2023-04-16 21:06:29,005 - root - INFO - ************* Searching Customer by Email **********
+2023-04-16 21:06:29,005 - root - INFO - ************* Searching Customer by Email **********
+2023-04-16 21:06:29,005 - root - INFO - ************* Searching Customer by Email **********
+2023-04-16 21:06:29,519 - root - INFO - ***************  TestCase Test004CustomerSearchByEmail Is Complete  *********** 
+2023-04-16 21:06:29,519 - root - INFO - ***************  TestCase Test004CustomerSearchByEmail Is Complete  *********** 
+2023-04-16 21:06:29,519 - root - INFO - ***************  TestCase Test004CustomerSearchByEmail Is Complete  *********** 
+2023-04-16 21:06:29,519 - root - INFO - ***************  TestCase Test004CustomerSearchByEmail Is Complete  *********** 
+2023-04-16 21:06:29,519 - root - INFO - ***************  TestCase Test004CustomerSearchByEmail Is Complete  *********** 
+2023-04-16 21:06:32,669 - root - INFO - ************* Test005CustomerSearchByName **********
+2023-04-16 21:06:32,669 - root - INFO - ************* Test005CustomerSearchByName **********
+2023-04-16 21:06:32,669 - root - INFO - ************* Test005CustomerSearchByName **********
+2023-04-16 21:06:32,669 - root - INFO - ************* Test005CustomerSearchByName **********
+2023-04-16 21:06:32,669 - root - INFO - ************* Test005CustomerSearchByName **********
+2023-04-16 21:06:35,973 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:35,973 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:35,973 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:35,973 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:35,973 - root - INFO - ************* Login successful **********
+2023-04-16 21:06:35,973 - root - INFO - ******* Starting Customer Search By Name **********
+2023-04-16 21:06:35,973 - root - INFO - ******* Starting Customer Search By Name **********
+2023-04-16 21:06:35,973 - root - INFO - ******* Starting Customer Search By Name **********
+2023-04-16 21:06:35,973 - root - INFO - ******* Starting Customer Search By Name **********
+2023-04-16 21:06:35,973 - root - INFO - ******* Starting Customer Search By Name **********
+2023-04-16 21:06:37,593 - root - INFO - ************* Searching Customer by Name **********
+2023-04-16 21:06:37,593 - root - INFO - ************* Searching Customer by Name **********
+2023-04-16 21:06:37,593 - root - INFO - ************* Searching Customer by Name **********
+2023-04-16 21:06:37,593 - root - INFO - ************* Searching Customer by Name **********
+2023-04-16 21:06:37,593 - root - INFO - ************* Searching Customer by Name **********
+2023-04-16 21:06:38,177 - root - INFO - ***************  TestCase Test004CustomerSearchByName Is Complete *********** 
+2023-04-16 21:06:38,177 - root - INFO - ***************  TestCase Test004CustomerSearchByName Is Complete *********** 
+2023-04-16 21:06:38,177 - root - INFO - ***************  TestCase Test004CustomerSearchByName Is Complete *********** 
+2023-04-16 21:06:38,177 - root - INFO - ***************  TestCase Test004CustomerSearchByName Is Complete *********** 
+2023-04-16 21:06:38,177 - root - INFO - ***************  TestCase Test004CustomerSearchByName Is Complete *********** 
+2023-04-16 21:06:41,324 - root - INFO - ******** Test001Login ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Test001Login ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Test001Login ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Test001Login ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Test001Login ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Verifying Homepage Title ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Verifying Homepage Title ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Verifying Homepage Title ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Verifying Homepage Title ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Verifying Homepage Title ***********
+2023-04-16 21:06:41,324 - root - INFO - ******** Opening URL *********
+2023-04-16 21:06:41,324 - root - INFO - ******** Opening URL *********
+2023-04-16 21:06:41,324 - root - INFO - ******** Opening URL *********
+2023-04-16 21:06:41,324 - root - INFO - ******** Opening URL *********
+2023-04-16 21:06:41,324 - root - INFO - ******** Opening URL *********
+2023-04-16 21:06:43,486 - root - INFO - ******** Homepage Title Test Has Passed ***********
+2023-04-16 21:06:43,486 - root - INFO - ******** Homepage Title Test Has Passed ***********
+2023-04-16 21:06:43,486 - root - INFO - ******** Homepage Title Test Has Passed ***********
+2023-04-16 21:06:43,486 - root - INFO - ******** Homepage Title Test Has Passed ***********
+2023-04-16 21:06:43,486 - root - INFO - ******** Homepage Title Test Has Passed ***********
+2023-04-16 21:06:46,646 - root - INFO - ******** Verifying Login Test ***********
+2023-04-16 21:06:46,646 - root - INFO - ******** Verifying Login Test ***********
+2023-04-16 21:06:46,646 - root - INFO - ******** Verifying Login Test ***********
+2023-04-16 21:06:46,646 - root - INFO - ******** Verifying Login Test ***********
+2023-04-16 21:06:46,646 - root - INFO - ******** Verifying Login Test ***********
+2023-04-16 21:06:49,569 - root - INFO - ******** Login Test Has Passed ***********
+2023-04-16 21:06:49,569 - root - INFO - ******** Login Test Has Passed ***********
+2023-04-16 21:06:49,569 - root - INFO - ******** Login Test Has Passed ***********
+2023-04-16 21:06:49,569 - root - INFO - ******** Login Test Has Passed ***********
+2023-04-16 21:06:49,569 - root - INFO - ******** Login Test Has Passed ***********
