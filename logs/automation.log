@@ -795,3 +795,8 @@
 2023-04-16 01:34:57,268 - root - INFO - ******** Login Test Has Passed ***********
 2023-04-16 01:34:57,268 - root - INFO - ******** Login Test Has Passed ***********
 2023-04-16 01:34:57,268 - root - INFO - ******** Login Test Has Passed ***********
+2023-04-16 16:13:03,266 - root - INFO - ************* Test005CustomerSearchByName **********
+2023-04-16 16:13:08,057 - root - INFO - ************* Login successful **********
+2023-04-16 16:13:08,065 - root - INFO - ******* Starting Customer Search By Name **********
+2023-04-16 16:13:09,767 - root - INFO - ************* Searching Customer by Name **********
+2023-04-16 16:13:10,356 - root - INFO - ***************  TestCase Test004CustomerSearchByName Is Complete *********** 
