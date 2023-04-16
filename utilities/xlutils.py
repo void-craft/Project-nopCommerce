@@ -24,4 +24,3 @@ def write_data(file, sheet_name, row_number, column_number, data):
     sheet = workbook[sheet_name]
     sheet.cell(row=row_number, column=column_number).value = data
     workbook.save(file)
-

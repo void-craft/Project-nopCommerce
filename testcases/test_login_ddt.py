@@ -1,6 +1,4 @@
-import time
 import pytest
-from selenium import webdriver
 from pageobjects.login_page import LoginPage
 from utilities.read_properties import ReadConfig
 from utilities.custom_logger import LogGen
@@ -8,7 +6,7 @@ from utilities import xlutils
 
 
 class Test002DDTLogin:
-    BASEURL = ReadConfig.get_application_url()
+    BASE_URL = ReadConfig.get_application_url()
     PATH = ".//testdata/LoginData.xlsx"
     LOGGER = LogGen.log_gen()
 
@@ -16,7 +14,8 @@ class Test002DDTLogin:
         self.LOGGER.info("************ Test002DDTLogin *************")
         self.LOGGER.info("******** Verifying Login Test ***********")
         self.driver = setup
-        self.driver.get(self.BASEURL)
+        self.driver.get(self.BASE_URL)
+        self.driver.maximize_window()
         self.login_page = LoginPage(self.driver)
 
         self.rows = xlutils.get_row_count(self.PATH, 'Sheet1')
@@ -31,7 +30,6 @@ class Test002DDTLogin:
             self.login_page.set_username(self.username)
             self.login_page.set_password(self.password)
             self.login_page.click_login()
-            time.sleep(5)
 
             actual_title = self.driver.title
             expected_title = "Dashboard / nopCommerce administration"
@@ -45,6 +43,7 @@ class Test002DDTLogin:
                     self.LOGGER.error("**** Failed *****")
                     self.login_page.click_logout()
                     list_status.append("Fail")
+
             elif actual_title != expected_title:
                 if self.expected_result == "Pass":
                     self.LOGGER.error("**** Failed *****")
@@ -52,6 +51,7 @@ class Test002DDTLogin:
                 elif self.expected_result == "Fail":
                     self.LOGGER.info("**** Passed *****")
                     list_status.append("Pass")
+            print(list_status)
 
         if "Fail" not in list_status:
             self.LOGGER.info("************* Login DDT Test Has Passed *************")
@@ -64,4 +64,3 @@ class Test002DDTLogin:
 
         self.LOGGER.info("*********** End of Login DDT Test ***********")
         self.LOGGER.info("*********** Completed Test002DDTLogin ***********")
-

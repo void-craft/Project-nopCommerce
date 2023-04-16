@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium import webdriver
 from pageobjects.login_page import LoginPage
@@ -6,17 +8,21 @@ from utilities.custom_logger import LogGen
 
 
 class Test001Login:
-    BASEURL = ReadConfig.get_application_url()
+    BASE_URL = ReadConfig.get_application_url()
     USERNAME = ReadConfig.get_user_email()
     PASSWORD = ReadConfig.get_password()
     LOGGER = LogGen.log_gen()
 
+    @pytest.mark.regression
     def test_homepage_title(self, setup):
         self.LOGGER.info("******** Test001Login ***********")
         self.LOGGER.info("******** Verifying Homepage Title ***********")
         self.driver = setup
-        self.driver.get(self.BASEURL)
+        self.LOGGER.info("******** Opening URL *********")
+        self.driver.get(self.BASE_URL)
+        self.driver.maximize_window()
         actual_title = self.driver.title
+
         if actual_title == "Your store. Login":
             assert True
             self.driver.close()
@@ -27,10 +33,13 @@ class Test001Login:
             self.LOGGER.error("******** Homepage Title Test Has Failed ***********")
             assert False
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_login(self, setup):
         self.LOGGER.info("******** Verifying Login Test ***********")
         self.driver = setup
-        self.driver.get(self.BASEURL)
+        self.driver.get(self.BASE_URL)
+        self.driver.maximize_window()
         self.login_page = LoginPage(self.driver)
         self.login_page.set_username(self.USERNAME)
         self.login_page.set_password(self.PASSWORD)
