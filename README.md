@@ -1,6 +1,6 @@
 # Project nopCommerce
 
-##Description: 
+## Description: 
 This project is a comprehensive test suite for the admin site of the nopCommerce website. It includes test cases for login, customer addition, and searching for customers using email and name. The project uses the Page Object Model and Selenium with Python to provide an efficient and scalable testing solution.
 
 The framework reads login data from an Excel spreadsheet and logs test results, including screenshots of failed test cases. Additionally, it compiles HTML test results for easy viewing and analysis.
