@@ -10,6 +10,7 @@ class Test002DDTLogin:
     PATH = ".//testdata/LoginData.xlsx"
     LOGGER = LogGen.log_gen()
 
+    @pytest.mark.sanity
     def test_login_ddt(self, setup):
         self.LOGGER.info("************ Test002DDTLogin *************")
         self.LOGGER.info("******** Verifying Login Test ***********")

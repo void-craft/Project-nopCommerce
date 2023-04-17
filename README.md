@@ -1,6 +1,6 @@
 # Project nopCommerce
 
-## Description: 
+## Description:
 
 * This framework is a comprehensive hybrid test suite for the admin site of the nopCommerce website.
 
@@ -15,3 +15,18 @@
 * One notable feature of this project is its backend testing capability.
 
 * By testing the admin site, it ensures the website's backend functions correctly, allowing for a seamless customer experience.
+
+* The current build is/can be integrated with Jenkins for successful test results.
+
+## Test Cases:
+
+The test cases are marked with pytest sanity, regression, or both.
+
+1. Login
+2. Login - Data Driven Test
+2. Search Customer by Name
+2. Search Customer by Email
+3. Search Customer by Company
+4. Search Customer by Role
+7. Customer Addition
+

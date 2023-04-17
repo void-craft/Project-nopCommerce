@@ -7,6 +7,7 @@ class CustomerSearch(BasePage):
     TEXT_EMAIL_ID = (By.ID, "SearchEmail")
     TEXT_FIRSTNAME_ID = (By.ID, "SearchFirstName")
     TEXT_LASTNAME_ID = (By.ID, "SearchLastName")
+    TEXT_COMPANY_NAME_XPATH = (By.XPATH, "//input[@id='SearchCompany']")
     BUTTON_SEARCH_ID = (By.ID, "search-customers")
     TABLE_SEARCH_RESULTS_XPATH = (By.XPATH, "//table[@role='grid']")
     TABLE_TABLE_XPATH = (By.XPATH, "//table[@id='customers-grid']")
@@ -17,6 +18,7 @@ class CustomerSearch(BasePage):
     LISTITEM_REGISTERED_XPATH = (By.XPATH, "//li[contains(text(),'Registered')]")
     LISTITEM_GUESTS_XPATH = (By.XPATH, "//li[contains(text(),'Guests')]")
     LISTITEM_VENDOR_XPATH = (By.XPATH, "//li[contains(text(),'Vendors')]")
+    SPAN_DELETE_XPATH = (By.XPATH, "//span[@title='delete']")
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -26,17 +28,18 @@ class CustomerSearch(BasePage):
     def set_customer_role(self, role):
         self.click_element(self.TEXT_CUSTOMER_ROLE_XPATH)
         if role == 'Registered':
-            self.list_item = self.wait_for_element(self.LISTITEM_REGISTERED_XPATH)
+            pass
         elif role == 'Administrators':
+            self.list_item = self.click_element(self.SPAN_DELETE_XPATH)
             self.list_item = self.wait_for_element(self.LISTITEM_ADMINISTRATORS_XPATH)
         elif role == 'Guests':
-            self.list_item = self.click_element((By.XPATH, "//*[@id='SelectedCustomerRoleIds_taglist']/li/span[2]"))
+            self.list_item = self.click_element(self.SPAN_DELETE_XPATH)
             self.list_item = self.wait_for_element(self.LISTITEM_GUESTS_XPATH)
-        elif role == 'Registered':
-            self.list_item = self.wait_for_element(self.LISTITEM_REGISTERED_XPATH)
         elif role == 'Vendors':
+            self.list_item = self.click_element(self.SPAN_DELETE_XPATH)
             self.list_item = self.wait_for_element(self.LISTITEM_VENDOR_XPATH)
         else:
+            self.list_item = self.click_element(self.SPAN_DELETE_XPATH)
             self.list_item = self.wait_for_element(self.LISTITEM_GUESTS_XPATH)
         # self.list_item.click()  # if it is not working, use javascript like below
         self.driver.execute_script("arguments[0].click();", self.list_item)
@@ -49,6 +52,9 @@ class CustomerSearch(BasePage):
 
     def set_lastname(self, lastname):
         self.clear_and_send_keys(self.TEXT_LASTNAME_ID, lastname)
+
+    def set_customer_company(self, company):
+        self.clear_and_send_keys(self.TEXT_COMPANY_NAME_XPATH, company)
 
     def click_search(self):
         self.click_element(self.BUTTON_SEARCH_ID)
@@ -85,6 +91,16 @@ class CustomerSearch(BasePage):
             table = self.wait_for_element(self.TABLE_TABLE_XPATH)
             role = table.find_element(By.XPATH, "//table[@id='customers-grid']/tbody/tr[" + str(row) + "]/td[4]").text
             if customer_role in role:
+                flag = True
+                break
+        return flag
+
+    def search_customer_by_company(self, customer_company):
+        flag = False
+        for row in range(1, self.get_number_of_rows() + 1):
+            table = self.wait_for_element(self.TABLE_TABLE_XPATH)
+            company = table.find_element(By.XPATH, "//table[@id='customers-grid']/tbody/tr[" + str(row) + "]/td[5]").text
+            if customer_company in company:
                 flag = True
                 break
         return flag
