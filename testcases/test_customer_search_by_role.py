@@ -14,9 +14,9 @@ class Test005CustomerSearchByName:
     LOGGER = LogGen.log_gen()
 
     @pytest.mark.regression
-    def test_customer_search_by_name(self, setup):
+    def test_customer_search_by_role(self, setup):
 
-        self.LOGGER.info("************* Test005CustomerSearchByName **********")
+        self.LOGGER.info("************* Test006CustomerSearchByRole **********")
         self.driver = setup
         self.driver.get(self.BASE_URL)
         self.driver.maximize_window()
@@ -27,19 +27,18 @@ class Test005CustomerSearchByName:
         self.login_page.click_login()
         self.LOGGER.info("************* Login successful **********")
 
-        self.LOGGER.info("******* Starting Customer Search By Name **********")
+        self.LOGGER.info("******* Starting Customer Search By Role **********")
 
         self.add_customer = CustomerAddition(self.driver)
         self.add_customer.click_customers_menu()
         self.add_customer.click_customers_menu_item()
 
-        self.LOGGER.info("************* Searching Customer by Name **********")
+        self.LOGGER.info("************* Searching Customer by Role **********")
 
         search_customer = CustomerSearch(self.driver)
-        search_customer.set_firstname("Victoria")
-        search_customer.set_lastname("Terces")
+        search_customer.set_customer_role("Guest")
         search_customer.click_search()
-        status = search_customer.search_customer_by_name("Victoria Terces")
+        status = search_customer.search_customer_by_role("Guest")
         self.driver.close()
         assert status
-        self.LOGGER.info("***************  TestCase Test005CustomerSearchByName Is Complete *********** ")
+        self.LOGGER.info("***************  TestCase Test006CustomerSearchByRole Is Complete *********** ")

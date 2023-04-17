@@ -920,3 +920,41 @@
 2023-04-16 21:06:49,569 - root - INFO - ******** Login Test Has Passed ***********
 2023-04-16 21:06:49,569 - root - INFO - ******** Login Test Has Passed ***********
 2023-04-16 21:06:49,569 - root - INFO - ******** Login Test Has Passed ***********
+2023-04-17 08:33:11,467 - root - INFO - ************* Test006CustomerSearchByRole **********
+2023-04-17 08:33:16,211 - root - INFO - ************* Login successful **********
+2023-04-17 08:33:16,211 - root - INFO - ******* Starting Customer Search By Role **********
+2023-04-17 08:33:17,381 - root - INFO - ************* Searching Customer by Role **********
+2023-04-17 08:33:35,029 - root - INFO - ************* Test006CustomerSearchByRole **********
+2023-04-17 08:33:43,349 - root - INFO - ************* Login successful **********
+2023-04-17 08:33:43,351 - root - INFO - ******* Starting Customer Search By Role **********
+2023-04-17 08:33:44,976 - root - INFO - ************* Searching Customer by Role **********
+2023-04-17 08:33:46,401 - root - INFO - ***************  TestCase Test006CustomerSearchByRole Is Complete *********** 
+2023-04-17 08:34:12,883 - root - INFO - ************* Test006CustomerSearchByRole **********
+2023-04-17 08:34:23,168 - root - INFO - ************* Login successful **********
+2023-04-17 08:34:23,168 - root - INFO - ******* Starting Customer Search By Role **********
+2023-04-17 08:34:27,283 - root - INFO - ************* Searching Customer by Role **********
+2023-04-17 08:34:34,717 - root - INFO - ************* Test006CustomerSearchByRole **********
+2023-04-17 08:34:38,792 - root - INFO - ************* Login successful **********
+2023-04-17 08:34:38,792 - root - INFO - ******* Starting Customer Search By Role **********
+2023-04-17 08:34:39,918 - root - INFO - ************* Searching Customer by Role **********
+2023-04-17 08:34:41,323 - root - INFO - ***************  TestCase Test006CustomerSearchByRole Is Complete *********** 
+2023-04-17 08:34:47,704 - root - INFO - ************* Test006CustomerSearchByRole **********
+2023-04-17 08:34:51,200 - root - INFO - ************* Login successful **********
+2023-04-17 08:34:51,200 - root - INFO - ******* Starting Customer Search By Role **********
+2023-04-17 08:34:52,396 - root - INFO - ************* Searching Customer by Role **********
+2023-04-17 08:34:53,743 - root - INFO - ***************  TestCase Test006CustomerSearchByRole Is Complete *********** 
+2023-04-17 08:34:59,049 - root - INFO - ************* Test006CustomerSearchByRole **********
+2023-04-17 08:35:03,240 - root - INFO - ************* Login successful **********
+2023-04-17 08:35:03,240 - root - INFO - ******* Starting Customer Search By Role **********
+2023-04-17 08:35:04,374 - root - INFO - ************* Searching Customer by Role **********
+2023-04-17 08:35:05,781 - root - INFO - ***************  TestCase Test006CustomerSearchByRole Is Complete *********** 
+2023-04-17 08:37:23,972 - root - INFO - ************* Test006CustomerSearchByRole **********
+2023-04-17 08:37:28,895 - root - INFO - ************* Login successful **********
+2023-04-17 08:37:28,895 - root - INFO - ******* Starting Customer Search By Role **********
+2023-04-17 08:37:29,992 - root - INFO - ************* Searching Customer by Role **********
+2023-04-17 08:37:31,359 - root - INFO - ***************  TestCase Test006CustomerSearchByRole Is Complete *********** 
+2023-04-17 08:37:53,052 - root - INFO - ************* Test006CustomerSearchByRole **********
+2023-04-17 08:37:58,335 - root - INFO - ************* Login successful **********
+2023-04-17 08:37:58,335 - root - INFO - ******* Starting Customer Search By Role **********
+2023-04-17 08:37:59,519 - root - INFO - ************* Searching Customer by Role **********
+2023-04-17 08:38:00,419 - root - INFO - ***************  TestCase Test006CustomerSearchByRole Is Complete *********** 
